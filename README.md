@@ -17,9 +17,10 @@ Your **48 hours start when you receive the link** to this repository.
 
 1. **Fork** this repository (**keep the fork public**) and turn on Issues in your fork.
 2. **Create** `submissions/<your-github-username>/` — put all of your code there, not at the repo root.
-3. **Build** everything inside that folder (see Part D for design-first and SDLC expectations).
-4. **Deploy** it to a public HTTPS URL.
-5. **Open one pull request** to this repository within 48 hours.
+3. **Include your resume** as `submissions/<your-github-username>/RESUME.pdf` (PDF preferred).
+4. **Build** everything inside that folder (see Part D for design-first and SDLC expectations).
+5. **Deploy** it to a public HTTPS URL.
+6. **Open one pull request** to this repository within 48 hours.
 
 Full details are in [Section 10](#10-submission-flow). Read the whole brief before you start.
 
@@ -155,7 +156,7 @@ Before writing most of the code, commit a `DESIGN.md` in your submission folder 
 
 Your README goes at `submissions/<your-github-username>/README.md` and is the front page of your work. Do not edit the repository's root README. Include, in this order:
 
-1.  **Title, live link, and demo video link** at the very top.
+1.  **Title, live link, demo video link, and path to your resume** (`RESUME.pdf`) at the very top.
 2.  **Test credentials** for a pre-created account with sample documents already uploaded.
 3.  **What it does**, with screenshots.
 4.  **Architecture overview** with a diagram, and a link to `DESIGN.md`.
@@ -174,6 +175,16 @@ Your README goes at `submissions/<your-github-username>/README.md` and is the fr
 ### E3. AI usage disclosure `REQUIRED`
 
 You may use AI coding assistants. Add a short `AI_USAGE.md` describing which tools you used and for what. Honest disclosure is not penalized; being unable to explain your own code in the live review is.
+
+### E4. Resume `REQUIRED`
+
+Include your current resume in your submission folder as:
+
+```text
+submissions/<your-github-username>/RESUME.pdf
+```
+
+PDF is preferred. Link to it from your submission README and list the path in your pull request description.
 
 ## 8. Rules and Expectations
 
@@ -200,7 +211,7 @@ There is no email submission. You submit through a pull request to this reposito
 
 1.  **Fork** this repository to your own GitHub account. Keep your fork public.
 2.  **Enable Issues** in your fork (Settings → General → Features).
-3.  **Create your folder** `submissions/<your-github-username>/`. All of your code, Docker files, documentation, and tests go inside it. The only exception is your CI workflow file (see C2).
+3.  **Create your folder** `submissions/<your-github-username>/`. All of your code, Docker files, documentation, tests, and **resume** (`RESUME.pdf`) go inside it. The only exception is your CI workflow file (see C2).
 4.  **Build** using issues, feature branches, and pull requests inside your fork (see Part D).
 5.  **Deploy** from your fork and confirm the live link works.
 6.  **Open one pull request** from your fork's main branch to this repository's main branch, before the deadline, using the title and description format below.
@@ -215,6 +226,7 @@ A pull request template fills this in automatically when you open your pull requ
 | Live link        | https://your-app-url.com                                             |
 | Demo video       | Google Drive link, viewable by anyone with the link                  |
 | Test credentials | Username and password of a pre-created account with sample documents |
+| Resume           | Path to your resume, e.g. `submissions/<username>/RESUME.pdf`        |
 | Summary          | 3 to 5 sentences: what you built and your key technical choices      |
 | Not completed    | Anything you skipped or left unfinished, and why                     |
 | Release          | Link to your `v1.0.0` release in your fork                             |
@@ -241,9 +253,10 @@ Open your live link in an incognito window and confirm each item before opening 
 - [ ] `docker compose up` starts everything on a clean machine
 - [ ] CI pipeline is green on the final commit, tagged `v1.0.0`
 - [ ] `DESIGN.md`, `EVALUATION.md`, and `AI_USAGE.md` are in the repo
+- [ ] Resume is included as `submissions/<your-github-username>/RESUME.pdf`
 - [ ] Issues and pull requests are visible in the repository
 - [ ] No secrets anywhere in the repo or its history
-- [ ] README has the live link, video link, and test credentials at the top
+- [ ] README has the live link, video link, resume path, and test credentials at the top
 - [ ] Demo video opens in incognito without requesting access
 - [ ] Everything is inside `submissions/<your-github-username>/` (plus your CI workflow file)
 - [ ] Pull request is open to this repository with the correct title and full description

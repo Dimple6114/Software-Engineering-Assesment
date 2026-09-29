@@ -6,6 +6,7 @@
 | **Live link** | https://your-app-url.com |
 | **Demo video** | Google Drive link (Anyone with the link can view) |
 | **Test credentials** | Username and password for a pre-created account with sample documents |
+| **Resume** | `submissions/<my-github-username>/RESUME.pdf` |
 | **Release** | Link to your `v1.0.0` release in your fork |
 
 ## Summary
@@ -19,6 +20,7 @@ Anything you skipped or left unfinished, and why. Write "None" if everything req
 ## Checklist
 
 - [ ] All code is under `submissions/<my-github-username>/` (plus my CI workflow file only)
+- [ ] Resume is included as `submissions/<my-github-username>/RESUME.pdf`
 - [ ] PR does not change assignment files or other candidates' folders
 - [ ] Live link works in an incognito window (HTTPS)
 - [ ] Demo video opens in incognito without requesting access
