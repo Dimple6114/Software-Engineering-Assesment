@@ -189,9 +189,22 @@ PDF is preferred. Link to it from your submission README and list the path in yo
 ## 8. Rules and Expectations
 
 - **Scope matters.** If you run out of time, prioritize in this order: a working deployed core (A1–A3, B1–B2, C3), then Docker and CI, then evaluation, then everything else. Document what you left out and why. Clear prioritization is itself part of the assessment.
-- **Work alone.** You may use documentation, tutorials, and AI assistants, but the design decisions and the explanation must be yours. Other candidates' pull requests are publicly visible; copied work is easy to spot and leads to disqualification.
+- **Work alone.** You may use documentation, tutorials, and AI assistants, but the design decisions and the explanation must be yours. Other candidates' pull requests and forks are publicly visible.
 - **Hosted RAG products are not allowed** for the core pipeline (for example, a vendor's all-in-one “chat with your docs” API). Libraries such as LangChain or LlamaIndex are allowed, but you must be able to explain what they do under the hood.
 - **Live review.** Shortlisted candidates will walk us through their code and make a small change to it live, such as adding a filter or changing retrieval behaviour. Build something you understand.
+
+### Disqualification
+
+Any of the following leads to immediate disqualification from this assessment:
+
+- Substantially copying another candidate's submission, fork, pull request, or documentation.
+- Submitting work that is not your own (including having someone else complete the assignment for you).
+- Being unable to explain or modify your own code in the live review.
+- Committing or exposing secrets (API keys, passwords, tokens) in the repository or its history after being asked to remediate.
+- Modifying assignment files, other candidates' folders, or opening duplicate / reopened submission pull requests in violation of the submission rules.
+- Plagiarizing evaluation sets, design docs, or README content from another candidate with only superficial changes.
+
+Similarity to another submission may trigger a live review or direct disqualification at the reviewers' discretion.
 
 ## 9. Optional Extras
 
