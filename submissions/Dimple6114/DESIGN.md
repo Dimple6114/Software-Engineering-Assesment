@@ -69,7 +69,7 @@ and document-level access control
 
 # High-Level Architecture
 
-![DocuMind High-Level Architecture](architecture.png)
+![DocuMind High-Level Architecture](DocuMind Architecture.png)
 
 DocuMind follows a client-server architecture with a separate background
 processing worker for document ingestion.
